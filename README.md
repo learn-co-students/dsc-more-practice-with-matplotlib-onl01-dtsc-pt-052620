@@ -1,20 +1,22 @@
 
-# Customizing Visualizations With Matplotlib
+# Customizing Visualizations with Matplotlib
 
 ## Introduction
 
-We had a quick introduction to plotting with `matplotlib` in section one. This lesson covers plotting with Python and `matplotlib` using a more structured approach. In this section, we'll look into the components of standard matplotlib plots used for creating and customizing visualizations. The lesson will also provide you with lots of example code to get you started with data visualization and customizations. 
+We had a quick introduction to plotting with `matplotlib` in previous lessons. This lesson covers plotting with Python and `matplotlib` using a more structured approach. In this section, we'll look into the components of standard matplotlib plots used for creating and customizing visualizations. The lesson will also provide you with lots of example code to get you started with data visualization and customizations. 
 
 ## Objectives
 You will be able to:
-* Change styles and attributes for plotting objects in python to allow customisation
-* Customize plots with titles, labels and positioning
+* Create subplots using a Matplotlib figure
+* Use different linestyles within a Matplotlib visualization
+* Create labels and titles for visualizations
+* Create a lineplot using linspace
 
 ## `matplotlib` Plot:
 
 We have already seen some of the `matplotlib` built in functions that facilitate visualizing data with minimum effort. 
 
-Let's first import matplotlib's `pyplot` module into our working environment along with `numpy` to create sample data. We can use numpy's `linspace()` function to quickly generate some dummy data for visualizations.`pyplot` module provides allows simple and agile creation of figures and axes to achieve the desired plot. We'll see below how required figure descriptions and axes are added in a simple example. 
+Let's first import Matplotlib's `pyplot` module into our working environment along with `numpy` to create sample data. We can use numpy's `linspace()` function to quickly generate some dummy data for visualizations.`pyplot` module provides allows simple and agile creation of figures and axes to achieve the desired plot. We'll see below how required figure descriptions and axes are added in a simple example. 
 
 
 ```python
