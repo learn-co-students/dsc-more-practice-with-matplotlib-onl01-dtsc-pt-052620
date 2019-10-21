@@ -141,7 +141,7 @@ Let's see all of above in action with another plot. Here we declare a new figure
 
 
 ```python
-# Define a new figure with matplotlib's .plot() function. 
+# Define a new figure with matplotlib's .figure() function. 
 new_figure = plt.figure()
 
 # Add a subplot to the figure - a new axes
